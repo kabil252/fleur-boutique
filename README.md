@@ -72,8 +72,12 @@ Font Awesome
 
 Aucune bibliothèque externe JS (site 100% front-end)
 
+## lien vers mon site:
+Le site est hébergé via GitHub Pages et accessible à l'adresse suivante:https://kabil252.github.io/fleur-boutique
+
 👤 Auteur
 
 Nada Kabil
 Passionnée par le design floral et l’esthétique web.
+
 Ce site a été créé pour partager l’amour des fleurs et proposer une expérience visuelle élégante.

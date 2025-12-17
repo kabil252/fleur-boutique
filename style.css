@@ -137,6 +137,7 @@ a {
     z-index: 5;
     max-width: 60rem;
     animation: fadeUp 1s ease-out forwards;
+   margin-left: 80px;
 }
 
 .hero-content h1 {
@@ -1633,3 +1634,4 @@ hr {
 .fiche-produit .btn-panier-produit {
   font-size: 1.05rem;
 }
+

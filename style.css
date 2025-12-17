@@ -1428,3 +1428,38 @@ hr {
   border-radius: 22px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
+
+
+
+/* STRUCTURE FICHE PRODUIT */
+.fiche-produit {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+/* Haut : image + texte */
+.fiche-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+/* Bas : pleine largeur */
+.fiche-bottom {
+  margin-top: 50px;
+}
+
+/* Séparateur */
+.fiche-produit hr {
+  margin: 50px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .fiche-top {
+    grid-template-columns: 1fr;
+  }
+}

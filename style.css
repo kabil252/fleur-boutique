@@ -1064,64 +1064,71 @@ body {
 
 
 
-/* ===== À PROPOS ===== */
+/* =========================
+   PAGE À PROPOS
+========================= */
+
 .about {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(180deg, #fff, #faf6f9);
-  padding: 40px 20px;
+  padding: 80px 20px;
 }
 
 .about-card {
   max-width: 850px;
-  background: white;
+  margin: auto;
+  background: #ffffff;
   padding: 50px 60px;
-  border-radius: 25px;
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+  border-radius: 22px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 }
 
-/* Titres */
+/* Titre principal */
 .about-card h1 {
   font-size: 2.6rem;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
-.subtitle {
-  display: inline-block;
+/* Sous-titre */
+.about-card .subtitle {
+  display: block;
+  font-size: 1.2rem;
   color: #ff4d94;
-  font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
-/* Texte */
+/* Paragraphes */
 .about-card p {
-  font-size: 1rem;
-  line-height: 1.8;
+  font-size: 1.15rem;   /* ← taille du texte */
+  line-height: 1.9;     /* ← aération */
+  margin-bottom: 22px;
   color: #444;
-  margin-bottom: 18px;
 }
 
-.intro {
-  font-size: 1.1rem;
+/* Intro */
+.about-card .intro {
+  font-size: 1.25rem;
 }
 
-.closing {
-  margin-top: 30px;
+/* Conclusion */
+.about-card .closing {
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
 /* Responsive */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .about-card {
     padding: 35px 25px;
   }
 
   .about-card h1 {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
+  }
+
+  .about-card p {
+    font-size: 1.05rem;
   }
 }
+
 
 
 

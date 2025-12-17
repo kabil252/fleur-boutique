@@ -1463,3 +1463,65 @@ hr {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* =========================
+   CORRECTION FICHE PRODUIT
+========================= */
+
+/* Forcer la mise en page 2 colonnes */
+.fiche-produit {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+  align-items: start;
+}
+
+/* Tout le contenu reste à droite */
+.fiche-produit .produit-details {
+  display: flex;
+  flex-direction: column;
+}
+
+/* NE PLUS centrer les sections */
+.fiche-produit .avantages-produit,
+.fiche-produit .engagement-produit {
+  text-align: left;
+  margin-top: 30px;
+  max-width: 100%;
+}
+
+/* Supprimer les styles globaux gênants */
+.fiche-produit h2 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.fiche-produit ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.fiche-produit li {
+  margin-bottom: 6px;
+}
+
+/* Infos livraison bien intégrées */
+.fiche-produit .infos-produit {
+  margin-top: 20px;
+}
+
+.fiche-produit .infos-produit p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .fiche-produit {
+    grid-template-columns: 1fr;
+  }
+}

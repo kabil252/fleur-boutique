@@ -1252,3 +1252,63 @@ hr {
     font-size: 2rem;
   }
 }
+
+
+/* ===== À PROPOS ===== */
+.about {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #fff, #faf6f9);
+  padding: 40px 20px;
+}
+
+.about-card {
+  max-width: 850px;
+  background: white;
+  padding: 50px 60px;
+  border-radius: 25px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+}
+
+/* Titres */
+.about-card h1 {
+  font-size: 2.6rem;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  display: inline-block;
+  color: #ff4d94;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+/* Texte */
+.about-card p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 18px;
+}
+
+.intro {
+  font-size: 1.1rem;
+}
+
+.closing {
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .about-card {
+    padding: 35px 25px;
+  }
+
+  .about-card h1 {
+    font-size: 2.1rem;
+  }
+}

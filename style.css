@@ -1591,3 +1591,45 @@ hr {
     font-size: 1.05rem;
   }
 }
+
+
+/* =========================
+   AGRANDIR TEXTE PAGES PRODUITS
+========================= */
+
+/* Titre produit */
+.fiche-produit h1 {
+  font-size: 2.6rem;   /* avant ~2.2 */
+}
+
+/* Description */
+.fiche-produit .produit-description {
+  font-size: 1.15rem; /* avant ~1rem */
+  line-height: 1.8;
+}
+
+/* Prix */
+.fiche-produit .produit-prix-big {
+  font-size: 2.1rem;
+}
+
+/* Infos livraison */
+.fiche-produit .infos-produit p {
+  font-size: 1.05rem;
+}
+
+/* Sections (Pourquoi / Engagement) */
+.fiche-produit h2 {
+  font-size: 1.4rem;
+}
+
+.fiche-produit li,
+.fiche-produit .engagement-produit p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Boutons */
+.fiche-produit .btn-panier-produit {
+  font-size: 1.05rem;
+}

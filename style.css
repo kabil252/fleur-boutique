@@ -277,13 +277,12 @@ section {
 .produit-body h3 {
     font-size: 2rem;
     margin-bottom: 0.8rem;
-    
 }
 
 .produit-body p {
     font-size: 1.45rem;
     color: #666;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .produit-prix {
@@ -1650,10 +1649,3 @@ hr {
     line-height: 1.6;
     margin-bottom: 2rem;
 }
-
-
-
-
-
-
-

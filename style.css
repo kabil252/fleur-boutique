@@ -137,6 +137,7 @@ a {
     z-index: 5;
     max-width: 60rem;
     animation: fadeUp 1s ease-out forwards;
+    margin:20px;
 }
 
 .hero-content h1 {
@@ -1665,5 +1666,6 @@ hr {
     line-height: 1.6;
     margin-bottom: 2rem;
 }
+
 
 

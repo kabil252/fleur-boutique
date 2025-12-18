@@ -239,7 +239,7 @@ section {
     max-width: 70rem;
     margin: 0 auto 3rem auto;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     color: #555;
 }
 
@@ -275,18 +275,19 @@ section {
 }
 
 .produit-body h3 {
-    font-size: 2rem;
+    font-size: 2.05rem;
     margin-bottom: 0.8rem;
+     color: #333;
 }
 
 .produit-body p {
-    font-size: 1.45rem;
+    font-size: 1.5rem;
     color: #666;
     margin-bottom: 1.5rem;
 }
 
 .produit-prix {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: var(--rose);
     margin-bottom: 0.5rem;
 }
@@ -306,12 +307,12 @@ section {
 }
 
 .btn-secondary {
-    padding: 0.8rem 2.2rem;
+    padding: 0.9rem 2.4rem;
     border-radius: 5rem;
     border: 0.15rem solid var(--rose);
     background: #fff;
     color: var(--rose);
-    font-size: 1.5rem;
+    font-size: 1.55rem;
     transition: 0.3s;
 }
 
@@ -321,7 +322,7 @@ section {
 }
 
 .produit-actions i {
-    font-size: 2rem;
+    font-size: 2.1rem;
     color: var(--rose);
     cursor: pointer;
     transition: 0.3s;
@@ -1649,6 +1650,7 @@ hr {
     line-height: 1.6;
     margin-bottom: 2rem;
 }
+
 
 
 

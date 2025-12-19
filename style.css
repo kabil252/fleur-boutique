@@ -179,10 +179,6 @@ section {
     object-fit: cover;
 }
 
-.produit-body {
-    padding: 2rem;
-    flex: 1;
-}
 
 .produit-body h3 {
     font-size: 2rem;
@@ -195,18 +191,8 @@ section {
     margin-bottom: 1.5rem;
 }
 
-.produit-prix {
-    font-size: 1.7rem;
-    color: var(--rose);
-    margin-bottom: 0.5rem;
-}
 
-.produit-prix span {
-    font-size: 1.4rem;
-    color: #999;
-    text-decoration: line-through;
-    margin-left: 0.5rem;
-}
+
 
 .produit-actions {
     padding: 1.5rem 2rem 2rem;
@@ -523,11 +509,6 @@ footer {
 
 
 
-.produit-card img {
-    width: 100%;
-    height: 22rem;
-    object-fit: cover;
-}
 
 
 .produit-body {
@@ -1063,5 +1044,6 @@ hr {
   font-size: 1.8rem;
   line-height: 2.9rem;
 }
+
 
 

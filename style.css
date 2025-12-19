@@ -469,7 +469,7 @@ footer {
     }
 
     .icons {
-        display: none; /* simplifier pour mobile */
+        display: none; 
     }
 
     .hero {
@@ -1044,6 +1044,7 @@ hr {
   font-size: 1.8rem;
   line-height: 2.9rem;
 }
+
 
 
 

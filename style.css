@@ -851,7 +851,12 @@ body {
   margin-bottom: 30px;
 }
 
-
+.about-card p { 
+ font-size: 1rem;
+ line-height: 1.8; 
+ color: #444;
+ margin-bottom: 18px;
+}
 
 .intro {
   font-size: 1.1rem;
@@ -1037,6 +1042,7 @@ hr {
   font-size: 1.8rem;
   line-height: 2.9rem;
 }
+
 
 
 

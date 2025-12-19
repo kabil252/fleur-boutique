@@ -1,6 +1,9 @@
 # 🌸 Fleur Boutique — Site Web de Vente de Fleurs
 
-Projet réalisé par **Nada Kabil**
+Projet réalisé par **Nada Kabil**  
+🎓 Étudiante en **1ère année BUT Réseaux & Télécommunications**
+
+📧 Contact : **nadanazih381@gmail.com**
 
 ---
 
@@ -51,7 +54,7 @@ Cette page regroupe :
 - 📋 **Un tableau Trello** pour organiser les tâches et suivre l’avancement  
 - 🗓️ **Un planning de réalisation** pour planifier les étapes et respecter les délais  
 
-Cette approche permet de mettre en valeur l’organisation, la méthodologie et la progression du projet.
+Cette démarche met en valeur l’organisation, la méthodologie et le sérieux du travail réalisé.
 
 ---
 
@@ -98,7 +101,7 @@ Le site est entièrement **responsive** :
 - Responsive Design  
 - GitHub Pages  
 
-
+*(Projet 100% front-end)*
 
 ---
 
@@ -121,6 +124,8 @@ Le site est hébergé via **GitHub Pages** :
 ## 👤 Auteur
 
 **Nada Kabil**  
-Passionnée par le design floral et l’esthétique web 🌸
+🎓 Étudiante en **1ère année BUT Réseaux & Télécommunications**  
+📧 **nadanazih381@gmail.com**
 
+Passionnée par le design floral et l’esthétique web 🌸
 

@@ -1,84 +1,126 @@
-🌸 Fleur Boutique — Site Web de Vente de Fleurs
+# 🌸 Fleur Boutique — Site Web de Vente de Fleurs
 
-Projet réalisé par Nada Kabil
+Projet réalisé par **Nada Kabil**
 
-📌 Description du projet
+---
 
-Fleur Boutique est un site web vitrine permettant de présenter et de vendre des compositions florales.
+## 📌 Description du projet
+
+**Fleur Boutique** est un site web vitrine dédié à la présentation et à la vente de compositions florales.  
 Le site met en avant des bouquets élégants, un design doux et moderne, ainsi qu’une navigation fluide entre les différentes pages.
 
-Ce projet a été réalisé dans le cadre d’un apprentissage HTML/CSS (et un peu d’UX/UI), en respectant plusieurs critères :
+Ce projet a été réalisé dans le cadre d’un apprentissage en **HTML / CSS**, avec une attention particulière portée à l’esthétique, à l’ergonomie et à la structuration du code.
 
-Un design cohérent et responsive
+---
 
-Des pages propres et bien structurées
+## 📁 Pages du site
 
-Une identité visuelle douce (rose pastel + animations légères)
+| Page | Description |
+|------|------------|
+| **accueil.html** | Page principale avec un hero visuel et un bouton vers les produits |
+| **produits.html** | Catalogue complet des bouquets |
+| **produit1.html → produit9.html** | Pages individuelles des bouquets (image, description, prix) |
+| **apropos.html** | Présentation personnelle et passion pour les fleurs |
+| **avis.html** | Avis clients présentés sous forme de cartes animées |
+| **contact.html** | Formulaire de contact esthétique |
+| **gestion-projet.html** | Page dédiée à la gestion et à l’organisation du projet |
 
-Un code lisible et facilement réutilisable
+---
 
-📁 Pages du site
+## 🎨 Identité visuelle
 
-Le site est composé de plusieurs pages :
+Le site utilise une identité visuelle douce et élégante :
 
-| Page                              | Description                                                             |
-| --------------------------------- | ----------------------------------------------------------------------- |
-| **accueil.html**                  | Page principale avec un hero visuel et un bouton vers les produits      |
-| **produits.html**                 | Catalogue complet de tous les bouquets proposés                         |
-| **produit1.html → produit9.html** | Page individuelle de chaque bouquet (photo + description + prix)        |
-| **apropos.html**                  | Présentation personnelle de Nada Kabil et de sa passion pour les fleurs |
-| **avis.html**                     | Page d’avis clients avec des cartes animées                             |
-| **contact.html**                  | Formulaire de contact esthétique et fonctionnel                         |
+- Couleur principale : **Rose pastel (#e84393)**
+- Typographie simple et lisible
+- Animations légères et modernes :
+  - Animation du logo 🌸
+  - Effets hover sur les boutons
+  - Cartes produits interactives
+  - Soulignement animé du menu
+
+---
+
+## 📊 Gestion de projet
+
+Une page dédiée à la gestion du projet a été intégrée au site afin de présenter la méthode de travail adoptée.
+
+Cette page regroupe :
+
+- 🧠 **Une carte mentale** pour structurer les idées et les pages du site  
+- 📋 **Un tableau Trello** pour organiser les tâches et suivre l’avancement  
+- 🗓️ **Un planning de réalisation** pour planifier les étapes et respecter les délais  
+
+Cette approche permet de mettre en valeur l’organisation, la méthodologie et la progression du projet.
+
+---
+
+## 📱 Responsive Web Design
+
+Le site est entièrement **responsive** :
+
+- Ordinateur
+- Tablette
+- Téléphone mobile
+
+### Techniques utilisées
+- Flexbox
+- CSS Grid
+- Media Queries
+- `object-fit` pour les images
+
+---
+
+## ✨ Animations CSS
+
+- Apparition progressive des éléments
+- Effets de survol sur les cartes et boutons
+- Animation fluide du logo
+- Animations légères respectant l’accessibilité
+
+---
+
+## ♿ Accessibilité
+
+- Contrastes lisibles
+- Textes clairs
+- Navigation simple
+- Images avec attributs `alt`
+- Animations non agressives
+
+---
+
+## 🔧 Technologies utilisées
+
+- HTML5  
+- CSS3  
+- Font Awesome  
+- Responsive Design  
+- GitHub Pages  
 
 
-🎨 Identité visuelle
 
-Le site utilise :
-✔ Rose pastel (#e84393) comme couleur principale
-✔ Une typographie simple (Verdana)
-✔ Des animations douces :
+---
 
-Rotation subtile du logo 🌸
+## 🧪 Validation W3C
 
-Soulignement animé dans le menu
+- ✔ HTML validé via W3C Validator  
+- ✔ CSS validé via W3C Validator  
 
-Hover élégant sur les boutons
+Le code respecte les standards du Web.
 
-Cartes produits interactives
+---
 
-🧩 Fonctionnalités
+## 🚀 Hébergement
 
-Navigation responsive avec header fixe
+Le site est hébergé via **GitHub Pages** :  
+👉 https://kabil252.github.io/fleur-boutique
 
-Animations CSS (logo, boutons, cartes produits, hover navigation)
+---
 
-Catalogue de produits avec images haute qualité
+## 👤 Auteur
 
-Pages produits détaillées
+**Nada Kabil**  
+Passionnée par le design floral et l’esthétique web 🌸
 
-Formulaire de contact stylisé
-
-Icônes Font Awesome intégrées
-
-Structure claire et accessible
-
-📦 Technologies utilisées
-
-HTML5
-
-CSS3
-
-Font Awesome
-
-Aucune bibliothèque externe JS (site 100% front-end)
-
-## lien vers mon site:
-Le site est hébergé via GitHub Pages et accessible à l'adresse suivante: https://kabil252.github.io/fleur-boutique
-
-👤 Auteur
-
-Nada Kabil
-Passionnée par le design floral et l’esthétique web.
-
-Ce site a été créé pour partager l’amour des fleurs et proposer une expérience visuelle élégante.
 

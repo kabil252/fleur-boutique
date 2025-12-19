@@ -516,30 +516,22 @@ footer {
 } 
 
 
-/* Carte produit */
-.produit-card {
-    background: #fff;
-    border-radius: 1.2rem;
-    box-shadow: 0 5px 15px var(--shadow);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    transition: 0.3s;
-}
+
+
 
 .produit-card:hover {
     transform: translateY(-6px);
 }
 
 
-/* Image produit */
+
 .produit-card img {
     width: 100%;
     height: 22rem;
     object-fit: cover;
 }
 
-/* Corps de la carte */
+
 .produit-body {
     padding: 2rem;
     flex-grow: 1;
@@ -554,7 +546,7 @@ footer {
     color: #666;
 }
 
-/* Prix */
+
 .produit-prix {
     font-size: 1.7em;
     color: var(--rose);
@@ -567,7 +559,7 @@ footer {
     margin-left: 0.5rem;
 }
 
-/* Zone des actions (bouton + ♥) */
+
 .produit-actions {
     padding: 1.5rem 1.8rem;
     display: flex;
@@ -575,7 +567,7 @@ footer {
     align-items: center;
 }
 
-/* Icône cœur */
+
 .produit-actions i {
     font-size: 2rem;
     color: var(--rose);
@@ -708,64 +700,17 @@ footer {
 
 
 
-/* ============================== */
-/* PAGE À PROPOS */
-/* ============================== */
 
-.apropos-section {
-    padding-top: 12rem;
-    padding-bottom: 6rem;
-    display: flex;
-    justify-content: center;
-    background: #fff;
-}
-
-.apropos-container {
-    width: 70%;
-    max-width: 900px;
-    text-align: left;
-}
-
-.apropos-container h1 {
-    font-size: 3.2rem;
-    color: #333;
-    margin-bottom: 2rem;
-}
-
-.apropos-container .intro {
-    font-size: 1.8rem;
-    color: var(--rose);
-    margin-bottom: 1rem;
-    font-weight: bold;
-}
-
-.apropos-container h2 {
-    font-size: 2.4rem;
-    margin-bottom: 1.5rem;
-    color: #444;
-}
-
-.apropos-container .texte {
-    font-size: 1.7rem;
-    line-height: 2.6rem;
-    color: #555;
-    margin-bottom: 2rem;
-}
-
-.apropos-container .btn-accueil {
-    margin-top: 2rem;
-}
 
 /* ========================= */
 /*   HEADER GLOBAL MODERNE   */
 /* ========================= */
-/* espace sous le header fixe pour tout le site */
+
 body {
     background: #f5f5f5;
     padding-top: 9rem;
 }
 
-/* BARRE DE NAVIGATION FIXE */
 .header-new {
     position: fixed;
     top: 0;
@@ -783,7 +728,7 @@ body {
 
     z-index: 1000;
 }
-/* LOGO */
+
 .header-new .logo {
     display: flex;
     align-items: center;
@@ -802,14 +747,14 @@ body {
     animation: float 3s ease-in-out infinite;
 }
 
-/* petite animation du logo */
+
 @keyframes float {
     0% { transform: translateY(0); }
     50% { transform: translateY(-4px); }
     100% { transform: translateY(0); }
 }
 
-/* MENU NAVIGATION */
+
 .navbar-new {
     display: flex;
     gap: 3rem;
@@ -822,13 +767,11 @@ body {
     letter-spacing: 0.3px;
 }
 
-/* lien actif */
+
 .navbar-new a.active {
     color: var(--rose);
     font-weight: 600;
 }
-
-/* soulignement animé */
 .navbar-new a::after {
     content: "";
     position: absolute;
@@ -848,7 +791,6 @@ body {
     color: var(--rose);
 }
 
-/* ICONES À DROITE */
 .icons-new {
     display: flex;
     align-items: center;
@@ -874,13 +816,13 @@ body {
 }
 
 
-/* --- ANIMATION LOGO --- */
+
 .logo {
     display: flex;
     align-items: center;
     font-size: 1.8rem;
     font-weight: bold;
-    color: #e94a89;   /* couleur rose */
+    color: #e94a89;  
     transition: color 0.4s ease, transform 0.4s ease;
 }
 
@@ -901,9 +843,6 @@ body {
     to   { transform: rotate(360deg); }
 }
 
-
-
-/* ===== À PROPOS ===== */
 .about {
   min-height: 100vh;
   display: flex;
@@ -921,7 +860,7 @@ body {
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
 }
 
-/* Titres */
+
 .about-card h1 {
   font-size: 2.6rem;
   margin-bottom: 8px;
@@ -934,7 +873,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* Texte */
+
 .about-card p {
   font-size: 1rem;
   line-height: 1.8;
@@ -951,7 +890,7 @@ body {
   font-weight: 500;
 }
 
-/* Responsive */
+
 @media (max-width: 700px) {
   .about-card {
     padding: 35px 25px;
@@ -971,7 +910,6 @@ main {
   gap: 60px;
 }
 
-/* ===== PRIX ===== */
 .produit-prix-big {
   font-size: 2rem;
   font-weight: 700;
@@ -986,7 +924,6 @@ main {
   margin-left: 10px;
 }
 
-/* ===== BOUTON ===== */
 .btn-panier-produit {
   display: inline-block;
   background: linear-gradient(135deg, #ff4d94, #ff77b7);
@@ -1004,7 +941,7 @@ main {
   box-shadow: 0 12px 25px rgba(255, 77, 148, 0.35);
 }
 
-/* ===== RETOUR ===== */
+
 .retour {
   display: inline-flex;
   align-items: center;
@@ -1015,7 +952,7 @@ main {
   margin-bottom: 35px;
 }
 
-/* ===== BLOCS AJOUTÉS ===== */
+
 .infos-produit p {
   margin: 6px 0;
   color: #444;
@@ -1049,7 +986,7 @@ hr {
   line-height: 1.6;
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 900px) {
   main {
     grid-template-columns: 1fr;
@@ -1061,7 +998,7 @@ hr {
 }
 
 
-/* Responsive */
+
 @media (max-width: 700px) {
   .about-card {
     padding: 35px 25px;
@@ -1083,13 +1020,13 @@ hr {
     grid-template-columns: 1fr;
   }
 }
-/* Tout le contenu reste à droite */
+
 .fiche-produit .produit-details {
   display: flex;
   flex-direction: column;
 }
 
-/* NE PLUS centrer les sections */
+
 .fiche-produit .avantages-produit,
 .fiche-produit .engagement-produit {
   text-align: left;
@@ -1098,7 +1035,7 @@ hr {
 }
 
 
-/* Responsive */
+
 @media (max-width: 900px) {
   .fiche-produit {
     grid-template-columns: 1fr;
@@ -1120,17 +1057,12 @@ hr {
     font-size: 2.2rem;
   }
 
-  .about-card p {
+   .about-card p {
     font-size: 1.05rem;
   }
+} 
+.about-card p {
+  font-size: 1.8rem;
+  line-height: 2.9rem;
 }
 
-/* Titre produit */
-.fiche-produit h1 {
-  font-size: 2.6rem;   /* avant ~2.2 */
-}
-
-/* Infos livraison */
-.fiche-produit .infos-produit p {
-  font-size: 1.05rem;
-}

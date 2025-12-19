@@ -834,11 +834,9 @@ footer {
     margin-top: 2rem;
 }
 
-
 /* ========================= */
 /*   HEADER GLOBAL MODERNE   */
 /* ========================= */
-
 /* espace sous le header fixe pour tout le site */
 body {
     background: #f5f5f5;
@@ -863,7 +861,6 @@ body {
 
     z-index: 1000;
 }
-
 /* LOGO */
 .header-new .logo {
     display: flex;
@@ -1174,54 +1171,6 @@ hr {
 }
 
 
-/* ===== À PROPOS ===== */
-.about {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(180deg, #fff, #faf6f9);
-  padding: 40px 20px;
-}
-
-.about-card {
-  max-width: 850px;
-  background: white;
-  padding: 50px 60px;
-  border-radius: 25px;
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
-}
-
-/* Titres */
-.about-card h1 {
-  font-size: 2.6rem;
-  margin-bottom: 8px;
-}
-
-.subtitle {
-  display: inline-block;
-  color: #ff4d94;
-  font-weight: 500;
-  margin-bottom: 30px;
-}
-
-/* Texte */
-.about-card p {
-  font-size: 1rem;
-  line-height: 1.8;
-  color: #444;
-  margin-bottom: 18px;
-}
-
-.intro {
-  font-size: 1.1rem;
-}
-
-.closing {
-  margin-top: 30px;
-  font-weight: 500;
-}
-
 /* Responsive */
 @media (max-width: 700px) {
   .about-card {
@@ -1237,67 +1186,13 @@ hr {
 /* =========================
    FICHE PRODUIT (produit1–9)
 ========================= */
-
-
-
-
-
 /* Responsive */
 @media (max-width: 900px) {
-  .fiche-produit {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* STRUCTURE FICHE PRODUIT */
-.fiche-produit {
-  max-width: 1100px;
-  margin: 60px auto;
-  padding: 20px;
-}
-
-/* Haut : image + texte */
-.fiche-top {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-}
-
-/* Bas : pleine largeur */
-.fiche-bottom {
-  margin-top: 50px;
-}
-
-/* Séparateur */
-.fiche-produit hr {
-  margin: 50px 0;
-  border: none;
-  border-top: 1px solid #ddd;
-}
-
-/* Responsive */
-@media (max-width: 900px) {
+  .fiche-produit,
   .fiche-top {
     grid-template-columns: 1fr;
   }
 }
-
-
-/* =========================
-   CORRECTION FICHE PRODUIT
-========================= */
-
-/* Forcer la mise en page 2 colonnes */
-.fiche-produit {
-  max-width: 1200px;
-  margin: 60px auto;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 60px;
-  align-items: start;
-}
-
 /* Tout le contenu reste à droite */
 .fiche-produit .produit-details {
   display: flex;
@@ -1312,30 +1207,6 @@ hr {
   max-width: 100%;
 }
 
-/* Supprimer les styles globaux gênants */
-.fiche-produit h2 {
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.fiche-produit ul {
-  padding-left: 20px;
-  margin: 0;
-}
-
-.fiche-produit li {
-  margin-bottom: 6px;
-}
-
-/* Infos livraison bien intégrées */
-.fiche-produit .infos-produit {
-  margin-top: 20px;
-}
-
-.fiche-produit .infos-produit p {
-  margin: 4px 0;
-  font-size: 0.95rem;
-}
 
 /* Responsive */
 @media (max-width: 900px) {
@@ -1345,60 +1216,14 @@ hr {
 }
 
 
+
 /* =========================
-   PAGE À PROPOS
+   PAGE À PROPOS 
 ========================= */
-
-.about {
-  padding: 80px 20px;
-}
-
-.about-card {
-  max-width: 850px;
-  margin: auto;
-  background: #ffffff;
-  padding: 50px 60px;
-  border-radius: 22px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
-}
-
-/* Titre principal */
-.about-card h1 {
-  font-size: 2.6rem;
-  margin-bottom: 10px;
-}
-
-/* Sous-titre */
-.about-card .subtitle {
-  display: block;
-  font-size: 1.2rem;
-  color: #ff4d94;
-  margin-bottom: 35px;
-}
-
-/* Paragraphes */
-.about-card p {
-  font-size: 1.15rem;   /* ← taille du texte */
-  line-height: 1.9;     /* ← aération */
-  margin-bottom: 22px;
-  color: #444;
-}
-
-/* Intro */
-.about-card .intro {
-  font-size: 1.25rem;
-}
-
-/* Conclusion */
-.about-card .closing {
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
   .about-card {
-    padding: 35px 25px;
+    padding: 3.5rem 2.5rem;
   }
 
   .about-card h1 {
@@ -1410,48 +1235,12 @@ hr {
   }
 }
 
-
-/* =========================
-   AGRANDIR TEXTE PAGES PRODUITS
-========================= */
-
 /* Titre produit */
 .fiche-produit h1 {
   font-size: 2.6rem;   /* avant ~2.2 */
-}
-
-/* Description */
-.fiche-produit .produit-description {
-  font-size: 1.15rem; /* avant ~1rem */
-  line-height: 1.8;
-}
-
-/* Prix */
-.fiche-produit .produit-prix-big {
-  font-size: 2.1rem;
 }
 
 /* Infos livraison */
 .fiche-produit .infos-produit p {
   font-size: 1.05rem;
 }
-
-/* Sections (Pourquoi / Engagement) */
-.fiche-produit h2 {
-  font-size: 1.4rem;
-}
-
-.fiche-produit li,
-.fiche-produit .engagement-produit p {
-  font-size: 1.05rem;
-  line-height: 1.7;
-}
-
-/* Boutons */
-.fiche-produit .btn-panier-produit {
-  font-size: 1.05rem;
-}
-
-
-
-

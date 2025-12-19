@@ -171,9 +171,7 @@ section {
     transition: 0.3s;
 }
 
-.produit-card:hover {
-    transform: translateY(-6px);
-}
+
 
 .produit-card img {
     width: 100%;
@@ -1065,4 +1063,5 @@ hr {
   font-size: 1.8rem;
   line-height: 2.9rem;
 }
+
 

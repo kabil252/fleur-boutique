@@ -192,7 +192,12 @@ section {
 }
 
 
-
+.produit-actions {
+ padding: 1.5rem 2rem 2rem;
+ display: flex; 
+ align-items: center;
+ justify-content: space-between;
+}
 
 
 .btn-secondary {
@@ -1032,6 +1037,7 @@ hr {
   font-size: 1.8rem;
   line-height: 2.9rem;
 }
+
 
 
 

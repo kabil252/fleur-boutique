@@ -23,10 +23,12 @@ html {
 }
 
 body {
-    background: #fdfdfd;
-    color: var(--dark);
-    padding-top: 7rem; /* pour laisser la place au header fixe */
+    font-family: "Poppins", sans-serif;
+    background: #fafafa;
+    color: #222;
+    padding-top: 9rem;
 }
+
 
 /* Liens */
 a {
@@ -1649,4 +1651,5 @@ hr {
     line-height: 1.6;
     margin-bottom: 2rem;
 }
+
 

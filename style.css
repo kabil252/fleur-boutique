@@ -22,12 +22,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: "Poppins", sans-serif;
-    background: #fafafa;
-    color: #222;
-    padding-top: 9rem;
-}
 
 
 /* Liens */
@@ -35,62 +29,9 @@ a {
     text-decoration: none;
 }
 
-/* =========================================================
-   HEADER GLOBAL
-   ========================================================= */
-
-.logo {
-    font-size: 2.6rem;
-    font-weight: bold;
-    color: var(--dark);
-}
-
 .logo span {
     color: var(--rose);
 }
-
-
-
-.navbar a {
-    font-size: 1.8rem;
-    color: #555;
-    position: relative;
-}
-
-.navbar a:hover,
-.navbar a.active {
-    color: var(--rose);
-}
-
-.navbar a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -0.4rem;
-    width: 0;
-    height: 0.2rem;
-    background: var(--rose);
-    transition: 0.3s;
-}
-
-.navbar a:hover::after,
-.navbar a.active::after {
-    width: 100%;
-}
-
-
-
-.icons i {
-    font-size: 2rem;
-    color: var(--rose);
-    transition: 0.3s;
-}
-
-.icons i:hover {
-    transform: scale(1.2);
-    color: #d63077;
-}
-
 /* =========================================================
    SECTION HERO (ACCUEIL)
    ========================================================= */
@@ -387,21 +328,6 @@ section {
 }
 
 /* =========================================================
-   PAGE À PROPOS
-   ========================================================= */
-
-.apropos-texte p {
-    font-size: 1.15rem;
-    line-height: 1.8;
-    margin-bottom: 2rem;
-    color: #333;
-}
-
-.apropos-texte strong {
-    font-weight: 600;
-}
-
-/* =========================================================
    PAGE AVIS
    ========================================================= */
 .avis-section {
@@ -550,10 +476,6 @@ footer {
         height: auto;
         padding-top: 1rem;
         padding-bottom: 1rem;
-    }
-
-    body {
-        padding-top: 9rem;
     }
 
     .navbar {
@@ -1040,17 +962,6 @@ body {
   }
 }
 
-
-
-
-
-/* ===== GLOBAL ===== */
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #fafafa;
-  color: #222;
-}
-
 main {
   max-width: 1100px;
   margin: 60px auto;
@@ -1058,27 +969,6 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
-}
-
-/* ===== IMAGE ===== */
-.produit-img img {
-  width: 100%;
-  border-radius: 22px;
-  object-fit: cover;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
-}
-
-/* ===== TEXTE ===== */
-.produit-details h1 {
-  font-size: 2.4rem;
-  margin-bottom: 16px;
-}
-
-.produit-description {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #555;
-  margin-bottom: 28px;
 }
 
 /* ===== PRIX ===== */

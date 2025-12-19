@@ -162,16 +162,8 @@ section {
     padding: 6rem 6%;
 }
 
-.section-title {
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 3rem;
-    color: var(--dark);
-}
 
-.section-title span {
-    color: var(--rose);
-}
+
 
 /* =========================================================
    FEATURES (ACCUEIL)
@@ -588,18 +580,18 @@ footer {
 /* =================================== */
 /*           SECTION PRODUITS          */
 /* =================================== */
-
+ 
 .section-title {
     text-align: center;
     font-size: 3rem;
-    margin-top: 10rem;
+    margin-top: 10rem; 
     margin-bottom: 4rem;
     color: #333;
 }
 
 .section-title span {
     color: var(--rose);
-}
+} 
 
 
 /* Carte produit */
@@ -680,13 +672,13 @@ footer {
 /* PAGE PRODUIT INDIVIDUEL 1-9  */
 /* ============================= */
 
-.page-produit {
+/* .page-produit {
     padding: 12rem 5% 5rem;
     display: flex;
     gap: 4rem;
     align-items: flex-start;
     flex-wrap: wrap;
-}
+} */
 
 /* Image du produit */
 .produit-img {
@@ -1246,92 +1238,9 @@ hr {
    FICHE PRODUIT (produit1–9)
 ========================= */
 
-.fiche-produit {
-  max-width: 1100px;
-  margin: 60px auto;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-}
 
-/* Image */
-.fiche-produit .produit-img img {
-  width: 100%;
-  border-radius: 22px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-}
 
-/* Texte */
-.fiche-produit .produit-details h1 {
-  font-size: 2.4rem;
-  margin-bottom: 15px;
-}
 
-.fiche-produit .produit-description {
-  color: #555;
-  line-height: 1.7;
-  margin-bottom: 25px;
-}
-
-/* Prix */
-.fiche-produit .produit-prix-big {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #ff4d94;
-  margin-bottom: 30px;
-}
-
-.fiche-produit .produit-prix-big span {
-  font-size: 1rem;
-  color: #aaa;
-  text-decoration: line-through;
-  margin-left: 10px;
-}
-
-/* Bouton */
-.fiche-produit .btn-panier-produit {
-  display: inline-block;
-  background: linear-gradient(135deg, #ff4d94, #ff77b7);
-  color: white;
-  padding: 14px 36px;
-  border-radius: 40px;
-  text-decoration: none;
-  margin-bottom: 25px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.fiche-produit .btn-panier-produit:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 25px rgba(255, 77, 148, 0.35);
-}
-
-/* Infos */
-.fiche-produit .infos-produit {
-  margin-top: 30px;
-}
-
-.fiche-produit .infos-produit p {
-  margin: 6px 0;
-  font-size: 0.95rem;
-}
-
-/* Sections bas */
-.fiche-produit hr {
-  margin: 40px 0;
-}
-
-.fiche-produit .avantages-produit,
-.fiche-produit .engagement-produit {
-  background: #fafafa;
-  padding: 25px 30px;
-  border-radius: 18px;
-  margin-bottom: 25px;
-}
-
-.fiche-produit h2 {
-  margin-bottom: 12px;
-}
 
 /* Responsive */
 @media (max-width: 900px) {
@@ -1339,25 +1248,6 @@ hr {
     grid-template-columns: 1fr;
   }
 }
-
-
-
-.page-produit {
-  max-width: 1100px;
-  margin: 60px auto;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-}
-
-.page-produit .produit-img img {
-  width: 100%;
-  border-radius: 22px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-}
-
-
 
 /* STRUCTURE FICHE PRODUIT */
 .fiche-produit {
